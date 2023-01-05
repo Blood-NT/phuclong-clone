@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+     <meta name="description" content="Nhóm 15 PTIT" />
+    <meta name="keywords" content="Ogani, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Phúc Long | Nhóm 15</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+      <div class="humberger__menu__logo">
+        <a href="#"><img src="img/logo.png" alt="" /></a>
+      </div>
+      <div class="humberger__menu__cart">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+          </li>
+          <li>
+            <a href="./shoping-cart.html"
+              ><i class="fa fa-shopping-bag"></i> <span>3</span></a
+            >
+          </li>
+        </ul>
+        <div class="header__cart__price">item: <span> 150.000 đ</span></div>
+      </div>
+      <div class="humberger__menu__widget">
+        <div class="header__top__right__language">
+          <div>Tiếng Việt</div>
+          <span class="arrow_carrot-down"></span>
+          <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Tiếng Việt</a></li>
+          </ul>
+        </div>
+        <div class="header__top__right__auth">
+          <a href="#"><i class="fa fa-user"></i> Login</a>
+        </div>
+      </div>
+      <nav class="humberger__menu__nav mobile-menu">
+        <ul>
+          <li class="active"><a href="./index.html">Home</a></li>
+          <li><a href="./shop-grid.html">Sản Phẩm</a></li>
+          <li>
+            <a href="#">Danh Mục</a>
+            <ul class="header__menu__dropdown">
+              <li><a href="./ca-phe.html">Cà Phê</a></li>
+              <li><a href="./tra.html">Trà</a></li>
+              <li><a href="./do-an.html">Đồ ăn</a></li>
+              <li><a href="./trend.html">Trend</a></li>
+            </ul>
+          </li>
+          <li><a href="./blog.html">Tin Tức</a></li>
+        </ul>
+      </nav>
+      <div id="mobile-menu-wrap"></div>
+      <div class="header__top__right__social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+      </div>
+      <div class="humberger__menu__contact">
+        <ul>
+          <li><i class="fa fa-envelope"></i> nolan@nolan.com</li>
+          <li>hiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Humberger End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__left">
+                <ul>
+                  <li><i class="fa fa-envelope"></i> nolan@nolan.com</li>
+                  <li>hiiiiiiiiiiiiiiiiiiiiiiiiii</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__right">
+                <div class="header__top__right__social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                </div>
+                <div class="header__top__right__language">
+                  <div>Tiếng Việt</div>
+                  <span class="arrow_carrot-down"></span>
+                  <ul>
+                    <li><a href="#">Tiếng Việt</a></li>
+                    <li><a href="#">English</a></li>
+                  </ul>
+                </div>
+                <div class="header__top__right__auth">
+                  <a href="#"><i class="fa fa-user"></i> Login</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="header__logo">
+              <a href="./index.html"><img  src="img/logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <nav class="header__menu">
+              <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./shop-grid.html">Sản Phẩm</a></li>
+                <li>
+                  <a href="#">Danh Mục</a>
+                  <ul class="header__menu__dropdown">
+                    <li><a href="./ca-phe.html">Cà Phê</a></li>
+                    <li><a href="./tra.html">Trà</a></li>
+                    <li><a href="./do-an.html">Đồ ăn</a></li>
+                    <li><a href="./trend.html">Trend</a></li>
+                  </ul>
+                </li>
+                <li><a href="./blog.html">Tin Tức</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-3">
+            <div class="header__cart">
+              <ul>
+                <!-- <li>
+                    <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+                  </li> -->
+                <li>
+                  <a href="./shoping-cart.html"
+                    ><i class="fa fa-shopping-bag"></i> <span>3</span></a
+                  >
+                </li>
+              </ul>
+              <div class="header__cart__price">
+                item: <span> 150.000 đ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="humberger__open">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="hero__categories">
+              <div class="hero__categories__all">
+                <i class="fa fa-bars"></i>
+                <span>Nhóm Sản Phẩm</span>
+              </div>
+              <ul>
+                <li><a href="#">Phúc Long Signature</a></li>
+                <li><a href="#">Spwcial Tea</a></li>
+                <li><a href="#">Hot Unique</a></li>
+                <li><a href="#">Loose Tea</a></li>
+                <li><a href="#">Cold Brew Tea</a></li>
+                <li><a href="#">Signature Coffee</a></li>
+                <li><a href="#">Fresh Squeezed fruit juice</a></li>
+                <li><a href="#">Relaxing fruit smoothie</a></li>
+                <li><a href="#">Cool blended beverage</a></li>
+                <li><a href="#">Snacks</a></li>
+                <li><a href="#">Bakery</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="hero__search">
+              <div class="hero__search__form">
+                <form action="#">
+                  <div class="hero__search__categories">
+                    Tất cả danh mục
+                    <span class="arrow_carrot-down"></span>
+                  </div>
+                  <input type="text" placeholder="Bạn muốn uống gì" />
+                  <button type="submit" class="site-btn">SEARCH</button>
+                </form>
+              </div>
+              <div class="hero__search__phone">
+                <div class="hero__search__phone__icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="hero__search__phone__text">
+                  <h5>+84 866.730.867</h5>
+                  <span>Hỗ trợ 24/7</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero__item set-bg" data-setbg="https://phuclong.com.vn/uploads/dish/d1c388a9975c2c-hoatuyetberry60000838.png">
+              <div class="hero__text">
+                <span>Món mới</span>
+                <h2>Hoa Tuyết Berry Berry</h2>
+                <p>50.000đ</p>
+                <a href="#" class="primary-btn">Mua ngay</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Categories Section Begin -->
+    <section class="categories">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+          <div class="section-title">
+            <h2>Được mua nhiều nhất</h2>
+          </div>
+        </div>
+          <div class="categories__slider owl-carousel">
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="coffee/phinsd.jpg"
+              >
+                <h5><a href="sp1.html">Phin sữa đá</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="coffee/phinbb.jpg"
+              >
+                <h5><a href="#">phin bọt biển</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="coffee/htc.jpg"
+              >
+                <h5><a href="#">Hồng trà chanh</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="coffee/tnl.jpg"
+              >
+                <h5><a href="#">Trà Nhãn Lài</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="coffee/bm.jpg"
+              >
+                <h5><a href="#">Bánh mì</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Categories Section End -->
+
+    <!-- Featured Section Begin -->
+    <section class="featured spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>sản phẩm nổi bật</h2>
+            </div>
+            <div class="featured__controls">
+              <ul>
+                <li class="active" data-filter="*">tất cả</li>
+                <li data-filter=".caffee">cà phê</li>
+                <li data-filter=".fresh-meat">trà trái cây</li>
+                <li data-filter=".sttt">sinh tố</li>
+                <li data-filter=".fastfood">Bánh</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row featured__filter">
+          <div class="col-lg-3 col-md-4 col-sm-6 mix caffee">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/90405a9f256f11-cafe5mon04.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Capuchino</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix sttt">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/25a95ceca023f9-sinhtxoi.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Sinh tố xoài</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix caffee">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/8a92bb4b37c012-cafe5mon01.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">late late</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/dae727e03e8092-daccam.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Hồng trà đác cam</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix caffee">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/6e1c837ccd02b3-cafe5mon05.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Ngọc Viễn Đông</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/65a7d028c2229d-sachuaxoicthmphclong.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Sữa chua xoài đác</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix sttt ">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/4a625d6564e694-sinhtdu.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Sinh tố dâu</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/61b22d5643fc80-img_67711.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Bánh Mì Phúc Long (M)</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/774b3f1fd9202e-greenteachocolatecake.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Green Tea Choco Cake</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/005aaeed660473-trnhnphclong.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Trầ nhãn lài</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-sm-6 mix sttt ">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://phuclong.com.vn/uploads/dish/64bd44180be24c-sinhtchanh.png"             >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="./sp1.html"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Sinh tố chanh</a></h6>
+                <h5> 60.000 đ</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Section End -->
+
+    <!-- Banner Begin -->
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="banner__pic">
+              <img src="img/banner/banner-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="banner__pic">
+              <img src="img/banner/banner-2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Latest Product Section Begin -->
+    <section class="latest-product spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="latest-product__text">
+              <h4>Latest Products</h4>
+              <div class="latest-product__slider owl-carousel">
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts1.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà Sữa Berry Berry</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts1.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà Sữa Berry Berry</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts1.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà Sữa Berry Berry</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts1.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà Sữa Berry Berry</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts1.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà Sữa Berry Berry</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts1.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà Sữa Berry Berry</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="latest-product__text">
+              <h4>Top Rated Products</h4>
+              <div class="latest-product__slider owl-carousel">
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts2.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>sinh tố xoài</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts2.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>sinh tố xoài</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts2.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>sinh tố xoài</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts2.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>sinh tố xoài</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts2.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>sinh tố xoài</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\ts2.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>sinh tố xoài</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="latest-product__text">
+              <h4>Review Products</h4>
+              <div class="latest-product__slider owl-carousel">
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\taoep.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Táo ép</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\taoep.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Táo ép</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\taoep.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Táo ép</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\taoep.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Táo ép</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\taoep.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Táo ép</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="coffee\taoep.png" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Táo ép</h6>
+                      <span> 60.000 đ</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Latest Product Section End -->
+
+    <!-- Blog Section Begin -->
+    <!-- <section class="from-blog spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title from-blog__title">
+              <h2>From The Blog</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="blog__item">
+              <div class="blog__item__pic">
+                <img src="img/blog/blog-1.jpg" alt="" />
+              </div>
+              <div class="blog__item__text">
+                <ul>
+                  <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                  <li><i class="fa fa-comment-o"></i> 5</li>
+                </ul>
+                <h5><a href="#">Cooking tips make cooking simple</a></h5>
+                <p>
+                  Sed quia non numquam modi tempora indunt ut labore et dolore
+                  magnam aliquam quaerat
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="blog__item">
+              <div class="blog__item__pic">
+                <img src="img/blog/blog-2.jpg" alt="" />
+              </div>
+              <div class="blog__item__text">
+                <ul>
+                  <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                  <li><i class="fa fa-comment-o"></i> 5</li>
+                </ul>
+                <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
+                <p>
+                  Sed quia non numquam modi tempora indunt ut labore et dolore
+                  magnam aliquam quaerat
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="blog__item">
+              <div class="blog__item__pic">
+                <img src="img/blog/blog-3.jpg" alt="" />
+              </div>
+              <div class="blog__item__text">
+                <ul>
+                  <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                  <li><i class="fa fa-comment-o"></i> 5</li>
+                </ul>
+                <h5><a href="#">Visit the clean farm in the US</a></h5>
+                <p>
+                  Sed quia non numquam modi tempora indunt ut labore et dolore
+                  magnam aliquam quaerat
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Blog Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="footer__about">
+              <div class="footer__about__logo">
+                <a href="./index.html"><img  src="img/logo.png" alt="" /></a>
+              </div>
+              <ul>
+                <li>Địa Chỉ: 97 man thiên, TP Thủ Đức</li>
+                <li>Liên Hệ: +84 866.730.867</li>
+                <li>Email: nolan@nolan.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+            <div class="footer__widget">
+              <h6>danh sách chi nhánh</h6>
+              <ul>
+                <li><a href="#">CN 1:</a></li>
+                <li><a href="#">CN 2:</a></li>
+                <li><a href="#">CN 3:</a></li>
+                <li><a href="#">CN 4:<a></li>
+                <li><a href="#">CN 5:</a></li>
+                <li><a href="#">CN 6:</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Đ/c: HCM</a></li>
+                <li><a href="#">Đ/c: HCM</a></li>
+                <li><a href="#">Đ/c: HCM</a></li>
+                <li><a href="#">Đ/c: HCM</a></li>
+                <li><a href="#">Đ/c: HCM</a></li>
+                <li><a href="#">Đ/c: HCM</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="footer__widget">
+              <h6>góp ý</h6>
+              <p>
+                gửi email cho cung tôi về ý kiến của bạn
+              </p>
+              <form action="#">
+                <input type="text" placeholder="Enter your mail" />
+                <button type="submit" class="site-btn">gửi</button>
+              </form>
+              <div class="footer__widget__social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
